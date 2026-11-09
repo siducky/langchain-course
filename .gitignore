@@ -1,0 +1,78 @@
+# ==============================================================================
+# Python Core Artifacts
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Virtual Environments (CRITICAL: Do not commit dependencies)
+# ==============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Testing and Coverage
+# ==============================================================================
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.hypothesis/
+htmlcov/
+cover/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+*.lcov
+
+# ==============================================================================
+# Jupyter Notebooks and Data Science
+# ==============================================================================
+.ipynb_checkpoints
+.webassets-cache
+
+# ==============================================================================
+# Environment Variables & Secrets (CRITICAL: Protect private credentials)
+# ==============================================================================
+.env*
+!.env.example
+*.secrets
+secrets/
+
+# ==============================================================================
+# IDEs and Editors (Optional but highly recommended)
+# ==============================================================================
+.vscode/
